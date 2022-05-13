@@ -19,7 +19,7 @@ void list_print(List *l){
 		cout << l -> vet[i].val << "\t" << endl; }
 }
 
-void list_faztudo(List *l) {
+void list_maxsum(List *l) {
     int biggest_sum = 0, first_pos_biggest = 0, last_pos_biggest = 0, dynamic_sum, start = l -> first, finish = (l -> last - 1), i, j;
 
 	for (i = start; i <= finish; i++) {

@@ -19,6 +19,6 @@ typedef struct List {
 void create_empty_list (List *l);
 void list_insert(List *l, Item d);
 void list_print(List *l);
-void list_faztudo(List *l);
+void list_maxsum(List *l);
 
 #endif

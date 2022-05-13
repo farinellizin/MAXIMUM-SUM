@@ -1,6 +1,6 @@
 #include "Lista.hpp"
 
-void le_arquivo(List *l) {
+void read_file(List *l) {
     string linha;
     Item aux;
     int valor;
@@ -21,8 +21,7 @@ void le_arquivo(List *l) {
 int main () {
     List l;
     create_empty_list(&l);
-    le_arquivo(&l);
-    //list_print(&l);
-    list_faztudo(&l);
+    read_file(&l);
+    list_maxsum(&l);
     return 0;
 }
